@@ -1,0 +1,15 @@
+# Скопируйте этот файл в .env и подставьте свои значения.
+# Файл .env в репозиторий не коммитится.
+
+# Ключ ProxyAPI. Один и тот же ключ подходит и для OpenAI, и для Anthropic.
+OPENAI_API_KEY=your_key_here
+
+# Необязательно, если ключ уже лежит в OPENAI_API_KEY.
+# ANTHROPIC_API_KEY=your_key_here
+
+# Базовый адрес API. Для ProxyAPI оставьте строку ниже.
+# Если ключ напрямую от OpenAI — удалите эту строку.
+OPENAI_BASE_URL=https://api.proxyapi.ru/openai/v1
+
+# Модель для Chat Completions.
+OPENAI_MODEL=gpt-4o-mini
